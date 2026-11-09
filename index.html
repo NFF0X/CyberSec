@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعلّم اختبار الاختراق الأخلاقي</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f964bad74b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-mark"><i class="fa-solid fa-bug"></i></span>
+                <span class="brand-name">تعليم اختبار الاختراق الأخلاقي</span>
+            </a>
+
+            <nav class="nav-links" id="menu" aria-label="القائمة الرئيسية">
+                <a href="index.html" class="active">الرئيسية</a>
+                <a href="assets/courses.html">الدروس</a>
+                <a href="assets/labs.html">المعامل العملية</a>
+                <a href="#">المجتمع</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="assets/student-login.html" class="btn btn-ghost">تسجيل الدخول</a>
+                <a href="assets/student-singup.html" class="btn btn-primary">ابدأ مجانًا</a>
+                <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-text">
+            <h1>اتعلّم تخترق الأنظمة… عشان تحميها.</h1>
+            <p>مسار عملي من الصفر: الشبكات، تحليل الثغرات، وأدوات الاختبار، كله في بيئات تدريب آمنة ومصرّح بيها.</p>
+            <div class="hero-cta">
+                <a href="assets/courses.html" class="btn btn-primary btn-lg">ابدأ أول درس</a>
+                <a href="assets/labs.html" class="btn btn-ghost btn-lg">جرّب معمل</a>
+            </div>
+        </div>
+
+        <div class="terminal" dir="ltr" aria-hidden="true">
+            <div class="terminal-bar">
+                <i></i><i></i><i></i>
+                <span>lab-01 — recon</span>
+            </div>
+            <pre><span class="p">$</span> nmap -sV 10.10.10.5
+<span class="d">Starting scan...</span>
+<span class="d">22/tcp   open  ssh     OpenSSH 7.6</span>
+<span class="d">80/tcp   open  http    Apache 2.4.29</span>
+<span class="d">3306/tcp open  mysql   MySQL 5.7</span>
+<span class="p">$</span> <span class="caret"></span></pre>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
